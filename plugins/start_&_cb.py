@@ -42,13 +42,14 @@ async def start(client, message):
     
     verification_url = await get_token(client, message.from_user.id, f"https://t.me/{Config.BOT_USERNAME}?start=")
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/TamilRockerz_TR'),
-        InlineKeyboardButton('🌨️ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/TamilRockerz_TR')
+        InlineKeyboardButton('🌹 Channel 🌹', url='https://t.me/TamilRockerz_TR'),
+        InlineKeyboardButton('🤓 𝖠𝖽𝗆𝗂𝗇 🤓', url='https://t.me/TamilRockerz_TR')
     ], [
         InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')
     ], [
-        InlineKeyboardButton('🔗 Verify Now', url=verification_url)
+        InlineKeyboardButton('🔗 Verify Now 🔗', url=verification_url),
+        InlineKeyboardButton('🌷 𝖧𝗈𝗐 𝗍𝗈 𝖵𝖾𝗋𝗂𝖿𝗒 🌷', url='https://t.me/TamilRockerz_TR')
     ]])
     
     if Config.START_PIC:
@@ -69,7 +70,7 @@ async def rename_start(client, message):
             await message.reply_text(
                 "You need to verify your account before you can use this feature. Please verify your account using the following link:",
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton('🔗 Verify Now', url=verification_url)]
+                    [InlineKeyboardButton('🔗 Verify Now 🔗', url=verification_url)]
                 ])
             )
             return
@@ -110,7 +111,7 @@ async def cb_handler(client, query: CallbackQuery):
                 text=Txt.START_TXT.format(query.from_user.mention),
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/TamilRockerz_TR'), InlineKeyboardButton('🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TamilRockerz_TR')],
+                    [InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/TamilRockerz_TR'), InlineKeyboardButton('🤓 𝖠𝖽𝗆𝗂𝗇 🤓', url='https://t.me/TamilRockerz_TR')],
                     [InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')]
                 ])
             )
