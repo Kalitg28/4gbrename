@@ -43,7 +43,7 @@ async def start(client, message):
     verification_url = await get_token(client, message.from_user.id, f"https://t.me/{Config.BOT_USERNAME}?start=")
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton('🌹 Channel 🌹', url='https://t.me/TamilRockerz_TR'),
-        InlineKeyboardButton('🤓 𝖠𝖽𝗆𝗂𝗇 🤓', url='https://t.me/TamilRockerz_TR')
+        InlineKeyboardButton('🤓 𝖠𝖽𝗆𝗂𝗇 🤓', url='https://t.me/Kalitgadmin_Bot')
     ], [
         InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')
@@ -112,7 +112,7 @@ async def cb_handler(client, query: CallbackQuery):
                 text=Txt.START_TXT.format(query.from_user.mention),
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/TamilRockerz_TR'), InlineKeyboardButton('🤓 𝖠𝖽𝗆𝗂𝗇 🤓', url='https://t.me/TamilRockerz_TR')],
+                    [InlineKeyboardButton('🌹 Channel 🌹', url='https://t.me/TamilRockerz_TR'), InlineKeyboardButton('🤓 𝖠𝖽𝗆𝗂𝗇 🤓', url='https://t.me/Kalitgadmin_Bot')],
                     [InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')]
                 ])
             )
