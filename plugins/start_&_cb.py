@@ -49,7 +49,7 @@ async def start(client, message):
         InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')
     ], [
         InlineKeyboardButton('🔗 Verify Now 🔗', url=verification_url),
-        InlineKeyboardButton('🌷 𝖧𝗈𝗐 𝗍𝗈 𝖵𝖾𝗋𝗂𝖿𝗒 🌷', url='https://t.me/TamilRockerz_TR')
+        InlineKeyboardButton('🌷 𝖧𝗈𝗐 𝗍𝗈 𝖵𝖾𝗋𝗂𝖿𝗒 🌷', url='https://t.me/How_to_Download_TR/10')
     ]])
     
     if Config.START_PIC:
