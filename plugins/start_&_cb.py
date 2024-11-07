@@ -42,8 +42,8 @@ async def start(client, message):
     
     verification_url = await get_token(client, message.from_user.id, f"https://t.me/{Config.BOT_USERNAME}?start=")
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/aniflixClou'),
-        InlineKeyboardButton('🌨️ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/aniflixClou')
+        InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/TamilRockerz_TR'),
+        InlineKeyboardButton('🌨️ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/TamilRockerz_TR')
     ], [
         InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')
@@ -110,7 +110,7 @@ async def cb_handler(client, query: CallbackQuery):
                 text=Txt.START_TXT.format(query.from_user.mention),
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/aniflixClou'), InlineKeyboardButton('🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/aniflixClou')],
+                    [InlineKeyboardButton('⛅ Uᴘᴅᴀᴛᴇs', url='https://t.me/TamilRockerz_TR'), InlineKeyboardButton('🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TamilRockerz_TR')],
                     [InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')]
                 ])
             )
