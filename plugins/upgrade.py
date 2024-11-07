@@ -19,15 +19,15 @@ async def upgradecm(bot, message):
     Daily Upload limit 100GB
     Price Rs 179 ind /🌎 2.16$ per Month
 
-    Pay Using Upi I'd `HxBots@sbi`
+    Pay Using Upi I'd `kalimuthu@superyes`
 
     After Payment Send Screenshots Of 
-    Payment To Admin @Kirodewal"""
+    Payment To Admin @King_of_Kali"""
     
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Admin", url="https://t.me/kirodewal")],
-        [InlineKeyboardButton("Phone Pay", url="https://upayme.vercel.app/Hxbots@sbi"),
-         InlineKeyboardButton("Paytm Wallet/UPI", url="https://upayme.vercel.app/Hxbots@sbi")],
+        [InlineKeyboardButton("Admin", url="https://t.me/King_of_Kali")],
+        [InlineKeyboardButton("Phone Pay", url="https://upayme.vercel.app/kalimuthu@superyes"),
+         InlineKeyboardButton("Paytm Wallet/UPI", url="https://upayme.vercel.app/kalimuthu@superyes")],
         [InlineKeyboardButton("Cancel", callback_data="cancel")]
     ])
     
@@ -51,15 +51,15 @@ async def upgrade(bot, update):
     Daily Upload limit 100GB
     Price Rs 179 ind /🌎 2.16$ per Month
 
-    Pay Using Upi I'd `hxbots@sbi`
+    Pay Using Upi I'd `kalimuthu@superyes`
 
     After Payment Send Screenshots Of 
-    Payment To Admin @Kirodewal"""
+    Payment To Admin @King_of_Kali"""
     
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Admin", url="https://t.me/kirodewal")],
-        [InlineKeyboardButton("Phone Pay", url="https://upayme.vercel.app/Hxbots@sbi"),
-         InlineKeyboardButton("Paytm Wallet/UPI", url="https://upayme.vercel.app/Hxbots@sbi")],
+        [InlineKeyboardButton("Admin", url="https://t.me/King_of_Kali")],
+        [InlineKeyboardButton("Phone Pay", url="https://upayme.vercel.app/kalimuthu@superyes"),
+         InlineKeyboardButton("Paytm Wallet/UPI", url="https://upayme.vercel.app/kalimuthu@superyes")],
         [InlineKeyboardButton("Cancel", callback_data="cancel")]
     ])
     
