@@ -48,7 +48,8 @@ async def start(client, message):
         InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help')
     ], [
-        InlineKeyboardButton('🔗 Verify Now 🔗', url=verification_url),
+        InlineKeyboardButton('🔗 Verify Now 🔗', url=verification_url)
+    ], [
         InlineKeyboardButton('🌷 𝖧𝗈𝗐 𝗍𝗈 𝖵𝖾𝗋𝗂𝖿𝗒 🌷', url='https://t.me/How_to_Download_TR/10')
     ]])
     
